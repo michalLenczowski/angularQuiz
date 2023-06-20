@@ -1,0 +1,369 @@
+{
+  "designPatterns": [
+    {
+      "id": 1,
+      "name": "MVVC",
+      "questionId": 1,
+      "isCorrect": false
+    },
+    {
+      "id": 2,
+      "name": "Singleton",
+      "questionId": 1,
+      "isCorrect": true
+    },
+    {
+      "id": 3,
+      "name": "Strategy",
+      "questionId": 1,
+      "isCorrect": false
+    },
+    {
+      "id": 4,
+      "name": "Builder",
+      "questionId": 1,
+      "isCorrect": false
+    },
+    {
+      "id": 5,
+      "name": "Detect Injection",
+      "questionId": 2,
+      "isCorrect": false
+    },
+    {
+      "id": 6,
+      "name": "Directive Injection",
+      "questionId": 2,
+      "isCorrect": false
+    },
+    {
+      "id": 7,
+      "name": "Dependency Injection",
+      "questionId": 2,
+      "isCorrect": true
+    },
+    {
+      "id": 8,
+      "name": "Destructurization Incjective",
+      "questionId": 2,
+      "isCorrect": false
+    },
+    {
+      "id": 9,
+      "name": "To manage change detection strategy",
+      "questionId": 3,
+      "isCorrect": true
+    },
+    {
+      "id": 10,
+      "name": "To build namespace",
+      "questionId": 3,
+      "isCorrect": false
+    },
+    {
+      "id": 11,
+      "name": "To test application",
+      "questionId": 3,
+      "isCorrect": false
+    },
+    {
+      "id": 12,
+      "name": "To write unit tests",
+      "questionId": 3,
+      "isCorrect": false
+    },
+    {
+      "id": 13,
+      "name": "2",
+      "questionId": 4,
+      "isCorrect": false
+    },
+    {
+      "id": 14,
+      "name": "3",
+      "questionId": 4,
+      "isCorrect": false
+    },
+    {
+      "id": 15,
+      "name": "4",
+      "questionId": 4,
+      "isCorrect": false
+    },
+    {
+      "id": 16,
+      "name": "5",
+      "questionId": 4,
+      "isCorrect": true
+    },
+    {
+      "id": 17,
+      "name": "Factory",
+      "questionId": 5,
+      "isCorrect": false
+    },
+    {
+      "id": 18,
+      "name": "Builder",
+      "questionId": 5,
+      "isCorrect": false
+    },
+    {
+      "id": 19,
+      "name": "MVVC",
+      "questionId": 5,
+      "isCorrect": true
+    },
+    {
+      "id": 20,
+      "name": "Dependency Injection",
+      "questionId": 5,
+      "isCorrect": false
+    }
+  ],
+  "angular": [
+    {
+      "id": 1,
+      "name": "Design Pattern",
+      "questionId": 1,
+      "isCorrect": false
+    },
+    {
+      "id": 2,
+      "name": "Logically grouped blocks of codes and main element of angular application",
+      "questionId": 1,
+      "isCorrect": true
+    },
+    {
+      "id": 3,
+      "name": "Frameworks",
+      "questionId": 1,
+      "isCorrect": false
+    },
+    {
+      "id": 4,
+      "name": "Libraries",
+      "questionId": 1,
+      "isCorrect": false
+    },
+    {
+      "id": 5,
+      "name": "Dependency Injection",
+      "questionId": 2,
+      "isCorrect": false
+    },
+    {
+      "id": 6,
+      "name": "Communication between view and model layers",
+      "questionId": 2,
+      "isCorrect": true
+    },
+    {
+      "id": 7,
+      "name": "Creating http request",
+      "questionId": 2,
+      "isCorrect": false
+    },
+    {
+      "id": 8,
+      "name": "Styling view template",
+      "questionId": 2,
+      "isCorrect": false
+    },    
+    {
+      "id": 9,
+      "name": "Rxjs",
+      "questionId": 3,
+      "isCorrect": true
+    },
+    {
+      "id": 10,
+      "name": "Bootstrap",
+      "questionId": 3,
+      "isCorrect": true
+    },
+    {
+      "id": 11,
+      "name": "Spring",
+      "questionId": 3,
+      "isCorrect": false
+    },
+    {
+      "id": 12,
+      "name": "Kendo",
+      "questionId": 3,
+      "isCorrect": false
+    },
+    {
+      "id": 13,
+      "name": "Amazon",
+      "questionId": 4,
+      "isCorrect": false
+    },
+    {
+      "id": 14,
+      "name": "Microsoft",
+      "questionId": 4,
+      "isCorrect": false
+    },
+    {
+      "id": 15,
+      "name": "McDonald",
+      "questionId": 4,
+      "isCorrect": false
+    },
+    {
+      "id": 16,
+      "name": "Google",
+      "questionId": 4,
+      "isCorrect": true
+    },    
+    {
+      "id": 17,
+      "name": "Way of communicating between components",
+      "questionId": 5,
+      "isCorrect": false
+    },
+    {
+      "id": 18,
+      "name": "Root module",
+      "questionId": 5,
+      "isCorrect": false
+    },
+    {
+      "id": 19,
+      "name": "Technology of angular that allows you to load JavaScript components when a specific route is activated",
+      "questionId": 5,
+      "isCorrect": true
+    },
+    {
+      "id": 20,
+      "name": "Library",
+      "questionId": 5,
+      "isCorrect": false
+    }
+  ],
+  "java": [
+    {
+      "id": 1,
+      "name": "Scripting",
+      "questionId": 1,
+      "isCorrect": false
+    },
+    {
+      "id": 2,
+      "name": "Object Oriented",
+      "questionId": 1,
+      "isCorrect": true
+    },
+    {
+      "id": 3,
+      "name": "Cascading language",
+      "questionId": 1,
+      "isCorrect": false
+    },
+    {
+      "id": 4,
+      "name": "Machine language",
+      "questionId": 1,
+      "isCorrect": false
+    },
+    {
+      "id": 5,
+      "name": "Kendo",
+      "questionId": 2,
+      "isCorrect": false
+    },
+    {
+      "id": 6,
+      "name": "Bootstrap",
+      "questionId": 2,
+      "isCorrect": false
+    },
+    {
+      "id": 7,
+      "name": "Spring",
+      "questionId": 2,
+      "isCorrect": true
+    },
+    {
+      "id": 8,
+      "name": "rxjs",
+      "questionId": 2,
+      "isCorrect": false
+    },
+    
+    {
+      "id": 9,
+      "name": "Global variable",
+      "questionId": 3,
+      "isCorrect": false
+    },
+    {
+      "id": 10,
+      "name": "Variable which belongs to the class and initialized only once at the start of the execution",
+      "questionId": 3,
+      "isCorrect": true
+    },
+    {
+      "id": 11,
+      "name": "Local variable",
+      "questionId": 3,
+      "isCorrect": false
+    },
+    {
+      "id": 12,
+      "name": "Kind of constance",
+      "questionId": 3,
+      "isCorrect": false
+    },
+    {
+      "id": 13,
+      "name": "Group of similar types of classes, interfaces and sub-packages",
+      "questionId": 4,
+      "isCorrect": true
+    },
+    {
+      "id": 14,
+      "name": "Library",
+      "questionId": 4,
+      "isCorrect": false
+    },
+    {
+      "id": 15,
+      "name": "Framework",
+      "questionId": 4,
+      "isCorrect": false
+    },
+    {
+      "id": 16,
+      "name": "Type of compilation process",
+      "questionId": 4,
+      "isCorrect": false
+    },    
+    {
+      "id": 17,
+      "name": "Abstract class",
+      "questionId": 5,
+      "isCorrect": false
+    },
+    {
+      "id": 18,
+      "name": "Advanced type",
+      "questionId": 5,
+      "isCorrect": false
+    },
+    {
+      "id": 19,
+      "name": "Kind of primitive type",
+      "questionId": 5,
+      "isCorrect": false
+    },
+    {
+      "id": 20,
+      "name": "Feature used to execute a particular part of the program repeatedly if a given condition evaluates to be true",
+      "questionId": 5,
+      "isCorrect": true
+    }
+  ]
+}

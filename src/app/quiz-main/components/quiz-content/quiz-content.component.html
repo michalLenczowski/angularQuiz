@@ -1,0 +1,11 @@
+<div class="bg-body mt-4 mb-4 p-3 rounded-4">
+  <p class="d-flex justify-content-center">{{currentQuizTopic$ | async}}</p>
+  <div class="row">
+    <div class="col-sm-8">
+      <app-content-items-view></app-content-items-view>
+    </div>
+    <div class="col-sm-4">
+      <app-navigation-badges-view [questionsIdsArray]="questionsIdsArray" class="h-100 d-grid"></app-navigation-badges-view>
+    </div>
+  </div>
+</div>

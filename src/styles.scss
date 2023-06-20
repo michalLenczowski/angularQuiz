@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import './variables';
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,900');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 1em;
+  color: $color-background;
+  text-align: center;
+  line-height: normal;
+  background-color: $color-background;
+  min-width: 360px;
+  -webkit-text-size-adjust: 100%;
+
+  li {
+    cursor: pointer;
+  }
+}

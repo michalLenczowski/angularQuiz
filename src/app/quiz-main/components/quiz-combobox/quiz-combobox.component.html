@@ -1,0 +1,10 @@
+<div class="d-flex justify-content-end">
+  <mat-form-field>
+    <mat-label>Select Quiz:</mat-label>
+    <mat-select (change)="changeTopicSelection($event)">
+      <mat-option *ngFor="let item of quizTopicsItems" [disabled]="isTopicDisabled(item)" [value]="item.value">
+        {{item.name}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>

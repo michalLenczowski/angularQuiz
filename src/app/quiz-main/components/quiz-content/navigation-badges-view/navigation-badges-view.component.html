@@ -1,0 +1,5 @@
+<div class="shadow-sm p-3 mb-5 bg-body rounded">
+  <ul class="list-unstyled list-group list-group-horizontal d-flex justify-content-evenly">
+    <li *ngFor="let item of questionsIdsArray" (click)="navigateToQuestionId(item)"><span class="badge rounded-pill mr-2" [ngClass]="{ 'bg-primary': item === currentQuestionId, 'bg-dark': item !== currentQuestionId  }">{{item}}</span></li>
+  </ul>    
+</div>

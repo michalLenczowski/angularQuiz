@@ -1,0 +1,22 @@
+<div class="p-3 mb-5 mt-4 bg-body rounded">
+  <div class="row text-start">
+    <p><b>Result</b></p>
+    <p class="fs-6">{{correctDesignPatternsAnswers + correctAngularAnswers + correctJavaAnswers}} of {{allQuestions}} questions answered correctly</p>
+  </div>
+  <div class="row mt-5">
+    <p class="text-start">Categories</p>
+    <div class="col-sm-6 mt-4 text-start">
+      <p><span class="text-start"><b>Design pattern</b></span></p>
+      <p><span class="text-start"><b>Angular</b></span></p>
+      <p><span class="text-start"><b>Java</b></span></p>
+      <p><span class="text-start"><b>Overall</b></span></p>
+    </div>
+    <div class="col-sm-6 mt-4 text-end">
+      <p><span class="text-end p-2">{{correctDesignPatternsAnswers}} of 5</span></p>
+      <p><span class="text-end p-2">{{correctAngularAnswers}} of 5</span></p>
+      <p><span class="text-end p-2">{{correctJavaAnswers}} of 5</span></p>
+      <p><span class="text-end p-2">{{correctDesignPatternsAnswers + correctAngularAnswers + correctJavaAnswers}} of {{allQuestions}}</span></p>
+    </div>
+  </div>
+  <button type="button" class="btn btn-sm btn-success mt-4" (click)="navigateToMainPage()">Click here to continue</button>
+</div>

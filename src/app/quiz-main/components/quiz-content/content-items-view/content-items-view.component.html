@@ -1,0 +1,19 @@
+<div class="shadow-sm p-3 mb-5 bg-body rounded">
+  <div class="text-start p-2 mb-2 bg-body rounded border border-primary">
+    <p><b>Question {{question.id}}</b></p>
+    <p class="fs-6">{{question.name}}</p>
+  </div>
+  <ul class="mb-4 list-unstyled">
+    <li *ngFor="let item of answers" class="shadow-sm p-2 mb-2 bg-body rounded pe-auto" [ngClass]="{ 'border border-primary': isAnswerChecked(item) }" (click)="setAnswer(item)"><span class="text-left fs-6">{{item.name}}</span></li>
+  </ul>
+  <div class="shadow-sm p-2 mb-4 bg-body rounded">
+    <div class="btn btn-group" role="group">
+      <button type="button" class="btn btn-sm btn-primary" (click)="prevQuestionId()">Prev</button>
+      <button type="button" class="btn btn-sm btn-primary" (click)="nextQuestionId()">Next</button>
+    </div>
+  </div>
+  <div class="d-grid gap-4 d-md-block p-2 mb-2 mt-4" role="group">
+    <button type="button" class="btn btn-sm btn-outline-primary" (click)="submitPage()">Submit page</button>
+    <button type="button" class="btn btn-sm btn-outline-primary" (click)="navigateToSummary()">Submit all and finish</button>
+  </div>
+</div>

@@ -1,0 +1,68 @@
+{
+  "designPatterns": [
+    {
+      "id": 1,
+      "name": "Which design pattern in Angular is used most often for services creation?"
+    },
+    {
+      "id": 2,
+      "name": "DI is an abbreviation of which design pattern?"
+    },
+    {
+      "id": 3,
+      "name": "For which reason we are using strategy design pattern?"
+    },
+    {
+      "id": 4,
+      "name": "How many rules does SOLID Pattern has?"
+    },
+    {
+      "id": 5,
+      "name": "In which design pattern Angular is written ?"
+    }
+  ],
+  "angular": [
+    {
+      "id": 1,
+      "name": "What are components?"
+    },
+    {
+      "id": 2,
+      "name": "Two way data binding is used for?"
+    },
+    {
+      "id": 3,
+      "name": "What is the name of Angular library with lots of operators helpful in observables handling?"
+    },
+    {
+      "id": 4,
+      "name": "Which company created Angular?"
+    },
+    {
+      "id": 5,
+      "name": "What is lazy loading?"
+    }
+  ],
+  "java": [
+    {
+      "id": 1,
+      "name": "Which type of programming language Java is?"
+    },
+    {
+      "id": 2,
+      "name": "Give the most popular Java library"
+    },
+    {
+      "id": 3,
+      "name": "What is a static variable?"
+    },
+    {
+      "id": 4,
+      "name": "What is a package in Java?"
+    },
+    {
+      "id": 5,
+      "name": "What are loops in Java?"
+    }
+  ]
+}
